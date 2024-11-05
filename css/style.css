@@ -487,12 +487,16 @@ button:focus {
     .testimonial:nth-child(even) .testimonial__img {
         order: 0;
     }
+    .testimonial__bubble {
+        width: 350px;
+    }
     .arrow--up {
-        bottom: 1.5rem;
-        right: 2rem;
+        bottom: 1rem;
+        right: 1rem;
         font-size: 2rem;
-        width: 3rem;
-        height: 3rem;
+        width: 2.5rem;
+        height: 2.5rem;
+        box-shadow: 3px 3px 0px 0px var(--color-accent);
     }
 }
 
